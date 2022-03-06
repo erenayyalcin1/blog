@@ -1,2 +1,2 @@
 # ders   
-  \**erenay yalcin 191502011**\
+  erenay yalcin 191502011 
