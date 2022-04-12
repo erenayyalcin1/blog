@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+}
+a{
+    color: tomato;
+}
+html{
+    font-size: 21px;
+}
+article{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+figure{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+figcaption{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: lightyellow;
+}
