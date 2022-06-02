@@ -15,11 +15,12 @@ article{
     margin-bottom: auto;
 }
 figure{
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-left: 5;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
+    width: 300px; 
 }
 h3{
     font-family: sans-serif;
@@ -29,5 +30,112 @@ h3{
 figcaption{
     font-family: sans-serif;
     font-weight: lighter;
-    color: lightyellow;
+    color: rgb(248, 34, 1);
 }
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Color_icon_yellow.svg");  /*Hareketli bulut konulacak(gif)*/ 
+}
+    /* Piyano tuslarina benzetmek istedim tuslarin uzerine gelince notalar calacak */
+    /* piyano tuslarinin altina sitedeki sesi kapatan bir piyanist konulacak ses kapandiginda adam uyuyabilir*/
+    /* piyano tuslarina basma animasyonu koyabilirim  */
+#Yanmenu a{
+position:absolute;
+left: -80px;
+transition: 1s;
+padding: 20px;
+width: 85px;
+font-size: 20px;
+color: rgb(0, 179, 255);
+
+}
+#Yanmenu a:hover{
+    left:0;
+}
+#hakkinda{
+    top: 20px;
+    background-color: white;
+}
+#blog_sayfam{
+top: 80px;
+background-color: black;
+}
+#gelecek_planlarim{
+    top: 140px;
+    background-color: white;
+}
+#benimle_iletisime_gecin{
+    top: 200px;
+    background-color:black;
+}
+#hakkinda1{
+    top: 260px;
+    background-color: white;
+}
+#blog_sayfam1{
+top: 300px;
+background-color: black;
+}
+#gelecek_planlarim1{
+    top: 340px;
+    background-color: white;
+}
+#benimle_iletisime_gecin1{
+    top: 380px;
+    background-color: black;
+}
+#hakkinda2{
+    top: 420px;
+    background-color: white;
+}
+#blog_sayfam2{
+top: 460px;
+background-color: black;
+}
+#gelecek_planlarim2{
+    top: 500px;
+    background-color: white;
+}
+#benimle_iletisime_gecin2{
+    top: 540px;
+    background-color: black;
+}
+#hakkinda3{
+    top: 580px;
+    background-color: white;
+}
+#blog_sayfam3{
+top: 620px;
+background-color: black;
+}
+#gelecek_planlarim3{
+    top: 660px;
+    background-color: white;
+}
+#benimle_iletisime_gecin3{
+    top: 700px;
+    background-color: black;
+}
+
+
+
+
+/* IKONLAR*/
+.navbar {
+    width: 100%;
+    background-color: rgb(1, 133, 240); /* Bu rengi degistir */
+    overflow: auto;  
+  }
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 2s;
+  }
+  .navbar a:hover{
+      color: white;  /* uzerine geldiginde 2 saniye icersinde rengi beyaza donecek */
+  }
+
+
