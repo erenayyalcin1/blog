@@ -6,7 +6,7 @@
 
 	function WebsiteLoaded(){
 	   
-	    console.log("A1");
+
 	    document.getElementById("YanMenuPhoto").addEventListener("click",PhotoClick);
 	    var yanMenuler=document.getElementById("Yanmenu").children; // Yan menu divin icindeki tum menu itemlerini aldim.
 	     //Bu menu itemlar arasinda geziniyorum
@@ -19,7 +19,7 @@
 	function MenuItemMouseEntered(Nota){
 	    //Herhangi bir menu item a mouse giris yaptigi zaman calisir 
 	    //Notanin anlik hedef nesnesi (currentTarget) bu fonksiyonu tetikleyen menu itemi ifade eder
-	    console.log("A2"+Nota.currentTarget.id);
+
 	    //Eger daha onceden bir ses kaydi calmaya basladiysa onu durduracagim
 	    if(!audio.paused)
 	    {
