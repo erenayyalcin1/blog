@@ -38,7 +38,7 @@ body{
     /* Piyano tuslarina benzetmek istedim tuslarin uzerine gelince notalar calacak */
     /* piyano tuslarinin altina sitedeki sesi kapatan bir piyanist konulacak ses kapandiginda adam uyuyabilir*/
     /* piyano tuslarina basma animasyonu koyabilirim  */
-#Yanmenu a{
+#Yanmenu a, #Yanmenu img{
 position:absolute;
 left: -50px;
 transition: 1s;
@@ -137,5 +137,3 @@ background-color: black;
   .navbar a:hover{
       color: white;  /* uzerine geldiginde 2 saniye icersinde rengi beyaza donecek */
   }
-
-
