@@ -2,16 +2,16 @@
 	
 
 window.addEventListener("load", WebsiteLoaded);
-
-
 function WebsiteLoaded(){
+    document.getElementById("Hareketli_Giris").addEventListener("mouseenter",Ziplayiver);
+}
+function WebsiteLoaded(){
+    document.getElementById("Hareketli_Giris").addEventListener("mouseenter",Ziplayiver);
+    document.getElementById("Hareketli_Giris1").addEventListener("mouseenter",Ziplayiver);
    
 
-    
-    document.getElementById("Hareketli_Giris").addEventListener("mouseenter",Ziplayiver);
-
-
 }
+
 function Ziplayiver(Element){
     var divim=Element.currentTarget;
     let a=Math.floor(Math.random()*4)+1;
@@ -52,9 +52,5 @@ function Ziplayiver(Element){
             divim.style.marginTop= yeniDeger4  + 'px';
                 break;    
     }
-
-
-
-
 }
 
