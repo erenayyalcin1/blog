@@ -1,8 +1,8 @@
-img{
-    width: 100%;
-}
 a{
     color: tomato; /*Buralar silinecek  */
+}
+p{
+    backdrop-filter: blur(45px);
 }
 html{
     font-size: 21px;
@@ -19,8 +19,14 @@ figure{
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    text-align: center;
-    width: 300px; 
+    text-align: center; 
+}
+figure img{
+    width: 100%;
+}
+h1{
+   color: rgb(87, 87, 1);
+   
 }
 h3{
     font-family: sans-serif;
@@ -38,14 +44,15 @@ body{
     /* Piyano tuslarina benzetmek istedim tuslarin uzerine gelince notalar calacak */
     /* piyano tuslarinin altina sitedeki sesi kapatan bir piyanist konulacak ses kapandiginda adam uyuyabilir*/
     /* piyano tuslarina basma animasyonu koyabilirim  */
-#Yanmenu a, #Yanmenu img{
-position:absolute;
+#Yanmenu a{
+position:fixed;
 left: -50px;
 transition: 1s;
 padding: 20px;
 width: 85px;
 font-size: 20px;
 color: rgb(0, 179, 255);
+
 
 }
 #Yanmenu a:hover{
@@ -115,8 +122,18 @@ background-color: black;
     top: 700px;
     background-color: black;
 }
+#YanMenuPhoto{
+  position:fixed;
+  bottom:80px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+.PhotoMetin{
+    position: fixed;
 
-
+}
 
 
 /* IKONLAR*/
