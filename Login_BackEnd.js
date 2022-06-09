@@ -14,16 +14,16 @@ window.addEventListener("click",catchTime);
   var audio=new Audio();
 function catchTime(){
   
-    audio.src="./Audio/d.wav";
-    if(!audio.paused)
+   
+    if(audio.paused)
     {
-        audio.pause(); //onceki calan sesi durduruyorum
+        audio.src="./Audio/d.wav";
+        audio.play();
+        audio.loop=true;
     }
-    else{
     
-    audio.play();
-    audio.loop=true;
-}
+    
+
 }
 
 function Ziplayiver(Element){

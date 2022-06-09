@@ -154,3 +154,7 @@ background-color: black;
   .navbar a:hover{
       color: white;  /* uzerine geldiginde 2 saniye icersinde rengi beyaza donecek */
   }
+  p img{
+    height:256px;
+    width: 192px;
+  }
