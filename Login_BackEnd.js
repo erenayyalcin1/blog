@@ -67,4 +67,3 @@ function Ziplayiver(Element){
                 break;    
     }
 }
-
